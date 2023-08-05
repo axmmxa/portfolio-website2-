@@ -1,0 +1,15 @@
+.Navbar {
+    background-color: red;
+    display: flex;
+}
+
+.Navbar h3 {
+    margin-left: 3rem;
+}
+
+.Nav-list {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    margin-right: 4rem;
+}
