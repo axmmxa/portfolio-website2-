@@ -6,12 +6,11 @@ const Navbar = () => {
     <div className='Navbar'>
       <h3>alex much</h3>
       <div className='Nav-list'>
-        <ul>
-           <li>ABOUT ME</li>
-           <li>SKILLS</li>
-           <li>EXPIERENCE</li>
-           <li>CONTACT</li>
-        </ul>
+        <a>ABOUT ME</a>
+        <a>SKILLS</a>
+        <a>EXPIERENCE</a>
+        <a>WORK</a>
+        <a>CONTACT</a>
       </div>
     </div>
   )

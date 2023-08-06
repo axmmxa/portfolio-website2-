@@ -1,6 +1,6 @@
 .Navbar {
-    background-color: red;
     display: flex;
+    align-items: center;
 }
 
 .Navbar h3 {
@@ -13,3 +13,15 @@
     right: 10px;
     margin-right: 4rem;
 }
+
+.Nav-list a{
+    margin-left: 1rem;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.Nav-list a:hover{
+    color: #AA1DA4;
+    text-decoration: underline;
+}
+
