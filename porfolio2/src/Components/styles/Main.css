@@ -1,11 +1,24 @@
 .main {
-    margin-top: 5rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    color: white
+   height: 835px;
+    color: white;
+   background-image: url('../../images/profile-picture.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   display: flex;
+   justify-content: space-between;
+   margin-right: 4rem;
+   margin-left: 4rem;
 }
 
 h1 {
     font-family: Franchise-Free-Bold;
-    font-size: 50px;
+    font-size: 178px;
+}
+
+.hello {
+    margin-top: 160px;
+}
+
+.myName {
+    margin-top: 160px;
 }
