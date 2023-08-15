@@ -1,10 +1,11 @@
 import React from 'react'
 import './styles/Navbar.css'
+import logosmall from '../images/logo-small.svg'
 
 const Navbar = () => {
   return (
     <div className='Navbar'>
-      <h3>alex much</h3>
+      <img src={logosmall}></img>
       <div className='Nav-list'>
         <a>ABOUT ME</a>
         <a>SKILLS</a>

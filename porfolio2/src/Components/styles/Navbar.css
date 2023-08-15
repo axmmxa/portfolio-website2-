@@ -1,10 +1,13 @@
 .Navbar {
     display: flex;
     align-items: center;
+    color: white;
+    margin-top: 33px;
+    font-family: Inter;
 }
 
-.Navbar h3 {
-    margin-left: 3rem;
+.Navbar img {
+    margin-left: 43px;
 }
 
 .Nav-list {
@@ -15,13 +18,14 @@
 }
 
 .Nav-list a{
-    margin-left: 1rem;
-    font-size: 13px;
-    font-weight: 700;
+    margin-left: 42px;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .Nav-list a:hover{
     color: #AA1DA4;
     text-decoration: underline;
+    cursor: pointer;
 }
 
