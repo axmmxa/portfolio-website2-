@@ -29,3 +29,7 @@
     cursor: pointer;
 }
 
+.scroll-down{
+    display: block !important;
+}
+

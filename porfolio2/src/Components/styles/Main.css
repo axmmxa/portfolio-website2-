@@ -15,10 +15,65 @@ h1 {
     font-size: 178px;
 }
 
+p {
+    font-size: 12px;
+    font-family: Inter;
+}
+
+a { 
+    font-size: 12px;
+    font-family: Inter;
+    margin-left: 40px;
+}
+
+img{
+    margin-left: 10px;
+}
+
 .hello {
     margin-top: 160px;
 }
 
+.scroll-down {
+    margin-top: 200px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.scroll-down img {
+    margin-left: 0 !important;
+}
+
+.scroll-down a {
+    margin-left: 9px;
+}
+
 .myName {
     margin-top: 160px;
+}
+
+.about-me-text{
+    font-family: Franchise-Free-Bold;
+    color: #9F9D9D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me-text h2 {
+    margin: 0;
+    font-size: 4rem;
+}
+
+.first-sentence {
+    display: flex;
+}
+
+.white-letters{
+    color: white;
+}
+
+.last-sentence {
+  margin-left: -26rem !important;
 }
