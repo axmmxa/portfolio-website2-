@@ -4,13 +4,16 @@
     color: white;
     margin-top: 33px;
     font-family: Inter;
+    width: 95% !important;
+    margin: auto;
+    margin-top: 20px;
 }
 
 .Navbar img {
-    margin-left: 43px;
 }
 
 .Nav-list {
+    width: 40%;
     display: flex;
     position: absolute;
     right: 10px;

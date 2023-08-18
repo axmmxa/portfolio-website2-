@@ -1,27 +1,28 @@
 .main {
-   height: 835px;
+    width: 80%;
+    margin: auto;
+    height: 835px;
     color: white;
-   background-image: url('../../images/profile-picture.png');
-   background-repeat: no-repeat;
-   background-position: center;
-   display: flex;
-   justify-content: space-between;
-   margin-right: 4rem;
-   margin-left: 4rem;
+    background-image: url('../../images/profile-picture.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    display: flex;
+    justify-content: space-between;
 }
 
 h1 {
     font-family: Franchise-Free-Bold;
-    font-size: 178px;
+    font-size: 10vw;
 }
 
 p {
-    font-size: 12px;
+    font-size: 0.5vw;
     font-family: Inter;
 }
 
 a { 
-    font-size: 12px;
+    font-size: 0.5vw;
     font-family: Inter;
     margin-left: 40px;
 }
@@ -31,6 +32,7 @@ img{
 }
 
 .hello {
+    width: 30%;
     margin-top: 160px;
 }
 
@@ -49,11 +51,26 @@ img{
     margin-left: 9px;
 }
 
+
+
+
+
+
+
 .myName {
     margin-top: 160px;
+    width: 30%;
 }
 
+
+
+
+
+
+
 .about-me-text{
+    width: 80%;
+    margin: auto;
     font-family: Franchise-Free-Bold;
     color: #9F9D9D;
     display: flex;
@@ -63,17 +80,23 @@ img{
 
 .about-me-text h2 {
     margin: 0;
-    font-size: 4rem;
+    font-size: 3.8vw;
+    color: #9F9D9D;
 }
 
 .first-sentence {
     display: flex;
 }
 
+.first-sentence h2 {
+    font-size: 4vw;
+    color: #9F9D9D;
+}
+
 .white-letters{
-    color: white;
+    color: white !important;
 }
 
 .last-sentence {
-  margin-left: -26rem !important;
+  font-size: 4vm;
 }

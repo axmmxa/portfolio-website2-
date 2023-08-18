@@ -37,8 +37,12 @@ const Main = () => {
         <h2>I'M A</h2>
         <h2 className='white-letters'>&nbsp;FRONT-END DEVELOPER</h2>
       </div>
-      <h2>DEDICATED TO CREATE RESPONSIVE AND</h2>
-     <h2 className='last-sentence'>ELEGANT USER EXPIERENCE.</h2>
+
+      <div className='last-sentence'>
+      <h2 >DEDICATED TO CREATE RESPONSIVE AND</h2>
+      <h2>ELEGANT USER EXPIERENCE.</h2>
+      </div>
+      
     </div>
     
     </>
