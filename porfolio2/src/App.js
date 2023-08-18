@@ -9,6 +9,7 @@ import OthersSay from './Components/OthersSay';
 import Commercial from './Components/Commercial';
 import Experiments from './Components/Experiments';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 
 
@@ -24,6 +25,7 @@ function App() {
     <Commercial></Commercial>
     <Experiments></Experiments>
     <Contact></Contact>
+    <Footer></Footer>
     </>
   );
 }

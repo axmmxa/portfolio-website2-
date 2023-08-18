@@ -9,8 +9,16 @@ const Contact = () => {
             <img src={Contactlogo}></img>
         </div>
 
-        <div>
-            
+        <div className='contact'>
+            <h1>Let's talk</h1>
+
+            <form className='contact-form'>
+                <input type='text' name='Name' placeholder='Name'></input>
+                <input type='email'name='email' placeholder='Email'></input>
+                <textarea placeholder='Message' cols={5} rows={6}></textarea>
+            </form>
+
+        
         </div>
    </>
   )

@@ -1,0 +1,16 @@
+.footer {
+    height: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 250px;
+}
+
+.impressum {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
