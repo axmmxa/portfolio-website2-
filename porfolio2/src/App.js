@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Main from './Components/Main';
 import Skills from './Components/Skills';
+import Technology from './Components/Technology';
 
 
 
@@ -12,6 +13,7 @@ function App() {
     <Navbar></Navbar>
     <Main></Main>
     <Skills></Skills>
+    <Technology></Technology>
     </>
   );
 }

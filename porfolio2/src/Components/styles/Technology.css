@@ -1,11 +1,13 @@
-
-.skill-logo {
+.technology-logo {
+    margin-top: 140px;
     display: flex;
     justify-content: center;
     margin-top: 140px;
 }
 
-.skill-box {
+
+
+.technology-box {
     width: 100%;
     height: auto;
     
@@ -15,7 +17,7 @@
     flex-flow: wrap;
 }
 
-.skill {
+.technology {
     width: 40%;
     height: 100px;
     margin: 20px;
@@ -23,12 +25,12 @@
     font-size: 50px;
 }
 
-.skill h2 {
+.technology h2 {
     color: white;
     font-size: 20px;
 }
 
-.skill p {
+.technology p {
     color: white;
     color: #B9B9B9;
 }
