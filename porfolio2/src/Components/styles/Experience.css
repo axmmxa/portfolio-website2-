@@ -5,13 +5,12 @@
 }
 
 .expierence-box{
-    width: 100%;
+    width: 80%;
+    margin: auto ;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
-    margin-left: 15px;
 }
 
 .experience {
