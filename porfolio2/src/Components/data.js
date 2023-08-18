@@ -48,3 +48,42 @@ export const technologydata = [
 ]
 
 
+export const Experiencedata = [
+    {
+        id:1,
+        headline1: 'FRONTEND DEVELOPER ',
+        headline2: 'CLIMATE PROOF',
+        description: 'Oct 2022 - PRESENT, Konstanz Germany',
+        text: 'A back-end developer and me make the entire development team for this start-up. We are currently building the first release of the product in which I take the full responsibility for the implementation its front-end.'
+    },
+    {
+        id:1,
+        headline1: 'DEVELOPER TRAINING',
+        headline2: 'DEVELOPER AKADEMIE',
+        description: 'Oct 2022 - PRESENT, Munich Germany',
+        text: 'A back-end developer and me make the entire development team for this start-up. We are currently building the first release of the product in which I take the full responsibility for the implementation its front-end.'
+    },
+    {
+        id:1,
+        headline1: 'INTERNSHIP & MASTERTHESIS',
+        headline2: 'Titania',
+        description: 'Oct 2022 - PRESENT, Konstanz Germany',
+        text: 'A back-end developer and me make the entire development team for this start-up. We are currently building the first release of the product in which I take the full responsibility for the implementation its front-end.'
+    },
+    {
+        id:1,
+        headline1: 'CO Founder',
+        headline2: 'ALgo HASG VE',
+        description: 'Oct 2022 - PRESENT, Konstanz Germany',
+        text: 'A back-end developer and me make the entire development team for this start-up. We are currently building the first release of the product in which I take the full responsibility for the implementation its front-end.'
+    },
+    {
+        id:5,
+        headline1: 'Diploma Inernational Industrial Engineer',
+        headline2: 'UNIVERSITY OF APPLIED SINCE STRALSUND',
+        description: 'Oct 2022 - PRESENT, Konstanz Germany',
+        text: 'A back-end developer and me make the entire development team for this start-up. We are currently building the first release of the product in which I take the full responsibility for the implementation its front-end.'
+    },
+    
+]
+

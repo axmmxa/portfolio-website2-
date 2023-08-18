@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import Main from './Components/Main';
 import Skills from './Components/Skills';
 import Technology from './Components/Technology';
+import Experience from './Components/Experience';
 
 
 
@@ -14,6 +15,7 @@ function App() {
     <Main></Main>
     <Skills></Skills>
     <Technology></Technology>
+    <Experience></Experience>
     </>
   );
 }

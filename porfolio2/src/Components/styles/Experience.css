@@ -1,0 +1,52 @@
+.experience-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.expierence-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    margin-left: 15px;
+}
+
+.experience {
+    width: 50%;
+    margin: 20px;
+    font-family: inter !important;
+}
+
+.headline1 {
+    color: white;
+    margin: 0;
+    font-size: 32px;
+    font-family: inter !important;
+    font-weight: 500;
+}
+
+.headline2 {
+    color: #9F9D9D;
+    margin: 0;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.experience h4 {
+    color: #BE24A5;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 5px;
+    font-weight: 500;
+}
+
+.experience p {
+    color: #9F9D9D;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+    font-weight: 400;
+}
