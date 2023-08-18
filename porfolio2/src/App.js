@@ -7,6 +7,7 @@ import Technology from './Components/Technology';
 import Experience from './Components/Experience';
 import OthersSay from './Components/OthersSay';
 import Commercial from './Components/Commercial';
+import Experiments from './Components/Experiments';
 
 
 
@@ -20,6 +21,7 @@ function App() {
     <Experience></Experience>
     <OthersSay></OthersSay>
     <Commercial></Commercial>
+    <Experiments></Experiments>
     </>
   );
 }

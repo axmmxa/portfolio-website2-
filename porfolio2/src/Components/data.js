@@ -108,11 +108,5 @@ export const Commercialdata = [
         headline: 'SOMETHING',
         location: ' 2018 Sept Venezuela',
         text: 'id,Within the Internship during master thesis I developed a software that uses image recognition to detect quality issues of aircraft parts during production.'
-    },
-    {
-        id:2,
-        headline: 'SOMETHING',
-        location: ' 2018 Sept Venezuela',
-        text: 'id,Within the Internship during master thesis I developed a software that uses image recognition to detect quality issues of aircraft parts during production.'
     }
 ]

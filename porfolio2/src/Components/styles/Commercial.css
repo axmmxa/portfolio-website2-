@@ -1,11 +1,70 @@
-.commercial-box {
-    color: red;
+.commercial-logo {
     display: flex;
-    width: 80%;
-    margin: auto;
+    justify-content: center;
+    margin-top: 140px;
 }
 
-.description {
+.commercial-box {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 140px;
+    color: white;
+}
+
+.description-commercial {
+   height: 100%;
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   align-items: start !important;
+   justify-content: start !important;
+   
+}
+
+.description-commercial h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 29.44px;
+    color: white;
+    margin-top: 0;
+}
+
+.location {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #BE24A5;
+}
+
+.text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    color: #b9b9b9
+}
+
+.links-commercial{
     
+}
+
+.links-commercial a {
+    margin-left: 0;
+}
+
+.second-link {
+    margin-left: 70px !important;
+}
+
+.projekt-picture {
+    display: flex;
+    justify-content: end;
+}
+
+.projekt-picture img {
+    width: 80% !important;
+    height: auto !important;
 }
 
