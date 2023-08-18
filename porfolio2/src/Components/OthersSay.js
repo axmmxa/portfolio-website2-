@@ -14,7 +14,7 @@ const OthersSay = () => {
     {OthersSaysdata.map((OthersSays)=>{
         const {id, description, person, title} = OthersSays
         return(
-            <div className='comment'>
+            <div key={id} className='comment'>
                 <div className='quotation-markss'>
                     <img src={quotationMarks}></img>
                 </div>
