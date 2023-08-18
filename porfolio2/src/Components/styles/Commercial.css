@@ -1,0 +1,10 @@
+.commercial-box {
+    color: red;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.test {
+    color: blue;
+}

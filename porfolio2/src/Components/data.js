@@ -10,12 +10,12 @@ export const skilldata = [
         text: 'My attention to detail, and willingness to go above makes me constantly learning, but doesn’t keeps me from delivering my tasks timely.'
     },
     {
-        id:2,
+        id:3,
         headline: 'Problem-Solving and Troubleshooting',
         text: 'Proficient in detecting software problems and identifying and implementing effective solutions. Familiarity with debugging tools and techniques for improving code quality and performance.'
     },
     {
-        id:2,
+        id:4,
         headline: 'foreign languages',
         text: 'German (native), English (fluent, C1), Spanish (fluent, C1), Portugues (basic, B1)'
     },
@@ -57,21 +57,21 @@ export const Experiencedata = [
         text: 'A back-end developer and me make the entire development team for this start-up. We are currently building the first release of the product in which I take the full responsibility for the implementation its front-end.'
     },
     {
-        id:1,
+        id:2,
         headline1: 'DEVELOPER TRAINING',
         headline2: 'DEVELOPER AKADEMIE',
         description: 'Oct 2022 - PRESENT, Munich Germany',
         text: 'A back-end developer and me make the entire development team for this start-up. We are currently building the first release of the product in which I take the full responsibility for the implementation its front-end.'
     },
     {
-        id:1,
+        id:3,
         headline1: 'INTERNSHIP & MASTERTHESIS',
         headline2: 'Titania',
         description: 'Oct 2022 - PRESENT, Konstanz Germany',
         text: 'A back-end developer and me make the entire development team for this start-up. We are currently building the first release of the product in which I take the full responsibility for the implementation its front-end.'
     },
     {
-        id:1,
+        id:4,
         headline1: 'CO Founder',
         headline2: 'ALgo HASG VE',
         description: 'Oct 2022 - PRESENT, Konstanz Germany',
@@ -87,3 +87,32 @@ export const Experiencedata = [
     
 ]
 
+export const OthersSaysdata = [
+    {
+        id: 1,
+        description: 'Alex is a great team mate. He does what isneeded to succeed as a team. He things strategically to build for the future, and still solves anything the project throws at him.',
+        person:'Felix Merz',
+        title:'CEO - Climate PROOF'
+    },
+    {
+        id: 2,
+        description: 'Alex is generally living on the sunny side of life. He is always fair and respectful. He doesn’t make a difference between people and offers everybody a fair start. His believes are simple. He values authentic, honest and passionated people. On his words you can count - no matter what.',
+        person:'Chris L.',
+        title:'A friend - ON WATER AND LAND'
+    }
+]
+
+export const Commercialdata = [
+    {
+        id:1,
+        headline: 'SOMETHING',
+        location: ' 2018 Sept Venezuela',
+        text: 'id,Within the Internship during master thesis I developed a software that uses image recognition to detect quality issues of aircraft parts during production.'
+    },
+    {
+        id:2,
+        headline: 'SOMETHING',
+        location: ' 2018 Sept Venezuela',
+        text: 'id,Within the Internship during master thesis I developed a software that uses image recognition to detect quality issues of aircraft parts during production.'
+    }
+]
