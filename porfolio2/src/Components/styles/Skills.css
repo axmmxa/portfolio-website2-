@@ -1,0 +1,34 @@
+
+.skill-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.skill-box {
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.skill {
+    width: 40%;
+    height: 200px;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+
+.skill h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.skill p {
+    color: white;
+    color: #B9B9B9;
+}
