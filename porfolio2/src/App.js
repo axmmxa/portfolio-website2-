@@ -8,6 +8,7 @@ import Experience from './Components/Experience';
 import OthersSay from './Components/OthersSay';
 import Commercial from './Components/Commercial';
 import Experiments from './Components/Experiments';
+import Contact from './Components/Contact';
 
 
 
@@ -22,6 +23,7 @@ function App() {
     <OthersSay></OthersSay>
     <Commercial></Commercial>
     <Experiments></Experiments>
+    <Contact></Contact>
     </>
   );
 }
