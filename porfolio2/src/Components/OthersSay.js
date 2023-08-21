@@ -7,11 +7,14 @@ import {OthersSaysdata} from './data'
 const OthersSay = () => {
   return (
     <>
-    <div className='other-says-logo'>
-        <img src={OthersSays}></img>
-    </div>
 
-    {OthersSaysdata.map((OthersSays)=>{
+    <div className='others-says'>
+        
+        <div className='section-logo'>
+            <img src={OthersSays}></img>
+        </div>
+
+        {OthersSaysdata.map((OthersSays)=>{
         const {id, description, person, title} = OthersSays
         return(
             <div key={id} className='comment'>
@@ -29,6 +32,13 @@ const OthersSay = () => {
             </div>
         )
     })}
+    </div>
+
+
+
+    
+
+    
     </>
   )
 }

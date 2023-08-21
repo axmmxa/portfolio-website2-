@@ -21,6 +21,7 @@ function App() {
     <Skills></Skills>
     <Technology></Technology>
     <Experience></Experience>
+    <OthersSay></OthersSay>
     </>
   );
 }
