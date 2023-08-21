@@ -1,34 +1,38 @@
 
-.skill-logo {
-    display: flex;
-    justify-content: center;
-    margin-top: 140px;
+.skills {
+    margin-top: 600px;
+    position: relative;
+    height: auto;
+    margin-left: 100px;
 }
 
 .skill-box {
-    width: 80%;
-    height: auto;
-    margin: auto;
+    margin-top: 160px;
+    width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     flex-flow: wrap;
+    position: absolute;
 }
 
-.skill {
+.skill{
     width: 40%;
-    height: 100px;
-    margin: 20px;
-    box-sizing: border-box;
-    font-size: 50px;
+    margin-top:80px;
 }
 
-.skill h2 {
-    color: white;
+.one-skill {
     font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
 }
 
-.skill p {
-    color: white;
-    color: #B9B9B9;
+.skill-text {
+    margin-top: 5px;
+    color: var(--color-grey);
+    font-size: 16px;
+    line-height:26px;
+    font-weight: 300;
 }
+
+
+

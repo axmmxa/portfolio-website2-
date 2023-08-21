@@ -24,6 +24,7 @@ html {
 body {
   font-family: 'Inter', sans-serif;
   background-color: black;
+  margin: auto;
 }
 
 
@@ -39,7 +40,7 @@ body {
 .container {
   width: var(--container-width-md);
   margin-top:  0;
-  margin: auto;
+  margin: auto ;
 }
 
 .logo-size {
@@ -60,4 +61,10 @@ a {
 
 .arrow{
   margin-left: 5px;
+}
+
+.section-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 140px;
 }

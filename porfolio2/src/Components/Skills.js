@@ -5,7 +5,9 @@ import {skilldata} from './data'
 const Skills = () => {
   return (
     <>
-    <div className='skill-logo'>
+
+    <div className='skills container'>
+    <div className='section-logo'>
         <img src={skills}></img>
     </div>
 
@@ -15,14 +17,18 @@ const Skills = () => {
         return(
             
             <div key={id} className='skill'>
-                <h2>{headline}</h2>
-                <p>{text}</p>
+                <p className='one-skill'>{headline}</p>
+                <p className='skill-text'>{text}</p>
             </div>
         )
        })}
        
       
     </div>
+    </div>
+
+
+    
     </>
   )
 }
