@@ -6,44 +6,36 @@ import arrow2 from '../images/Arrow 2.svg'
 import './styles/Main.css'
 const Main = () => {
   return (<>
-    <div className='main container'>
 
-      <div className='hello'>
-        <h1>Hello</h1>
-         <p>This IS MY PORTFOLIO</p> 
+      <div className='container main'>
 
-         <div className='scroll-down'>
-          <p>Scroll</p>
-          <a><img src={arrow2}></img></a>
-         </div>
-
-      </div>
-
-      
-
-      <div className='myName'>
-        <h1>I'M ALEX</h1>
-        <div className='links'>
-          <a>LINKED IN<img src={arrow}></img></a>
-          <a>XING<img src={arrow}></img></a>
-          <a>DOWNLOAD CV<img src={arrow}></img></a>
+        <div className='hello'>
+            <h1>HELLO</h1>
+            <p className='link'>THIS IS MY PORTFOLIO</p>
+            <a className='link scroll'>Scroll<img src={arrow} className='arrow'></img></a>
         </div>
+
+        <div className='name'>
+            <h1>I'M ALEX</h1>
+            <div className='about-me-links'>
+              <a className='link'>LINKEDIN<img src={arrow} className='arrow' ></img></a>
+              <a className='link'>GITHUB<img src={arrow} className='arrow'></img></a>
+              <a className='link'>DOWNLOAD CV<img src={arrow} className='arrow'></img></a>
+            </div>
+            
+        </div>
+
+        <div className='description-text container'>
+          <div className='center-headline'>
+            <p >I’m a <span className='white'>front-end developer</span>,</p>
+          </div>
+            <p> dedicated to creatE responsive and</p>
+            <p> ELEGANT USER experiences.</p>
+        </div>
+
       </div>
 
-    </div>
-
-    <div className='about-me-text'>
-      <div className='first-sentence'>
-        <h2>I'M A</h2>
-        <h2 className='white-letters'>&nbsp;FRONT-END DEVELOPER</h2>
-      </div>
-
-      <div className='last-sentence'>
-      <h2 >DEDICATED TO CREATE RESPONSIVE AND</h2>
-      <h2>ELEGANT USER EXPIERENCE.</h2>
-      </div>
-      
-    </div>
+     
     
     </>
    

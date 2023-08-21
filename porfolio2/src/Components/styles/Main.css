@@ -1,101 +1,78 @@
 .main {
     margin: auto;
     height: 835px;
-    color: white;
     background-image: url('../../images/profile-picture.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;
-    display: flex;
-    justify-content: space-between;
+    position: relative;
 }
 
-.main h1{
+
+.main h1 {
+    font-size: 181px;
+    font-weight: 700px;
+    line-height: 183px;
     font-family: Franchise-Free-Bold;
-    font-size: 10vw;
-}
-
-.main p {
-    font-size: 0.5vw;
-    font-family: Inter;
-}
-
-.main a { 
-    font-size: 0.5vw;
-    font-family: Inter;
-    margin-left: 40px;
-}
-
-img{
-    margin-left: 10px;
 }
 
 .hello {
-    width: 30%;
-    margin-top: 160px;
+    top: 30%;
+    position: absolute;
+    left: 100px;
 }
 
-.scroll-down {
-    margin-top: 200px;
-    font-size: 12px;
-    display: flex;
-    flex-direction: column-reverse;
+.hello p{
+    position: absolute;
+    top:150%;
 }
 
-.scroll-down img {
-    margin-left: 0 !important;
+.scroll {
+    position: absolute;
+    top: 200%;
+    left: -100px;
+    transform: rotate(90deg);
 }
 
-.scroll-down a {
-    margin-left: 9px;
+.name {
+    top: 30%;
+    position: absolute;
+    right: 0;
 }
 
-
-
-
-
-
-
-.myName {
-    margin-top: 160px;
-    width: 30%;
+.about-me-links {
+    position: absolute;
+    top: 150%;
 }
 
+.about-me-links a{
+    margin-right: 45px;
+}
 
-
-
-
-
-
-.about-me-text{
-    width: 80%;
-    margin: auto;
-    font-family: Franchise-Free-Bold;
-    color: #9F9D9D;
+.description-text {
+    width: 100%;
+    position: absolute;
+    left: 100px;
+    top: 105%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.about-me-text h2 {
-    margin: 0;
-    font-size: 3.8vw;
-    color: #9F9D9D;
-}
-
-.first-sentence {
+.center-headline {
     display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: 2vm;
+ }
+
+.description-text p {
+    font-family: Franchise-Free-Bold;
+    font-size: 105px;
+    font-weight: 700;
+    color: var(--color-grey);
 }
 
-.first-sentence h2 {
-    font-size: 4vw;
-    color: #9F9D9D;
-}
 
-.white-letters{
-    color: white !important;
-}
 
-.last-sentence {
-  font-size: 4vm;
-}
+
