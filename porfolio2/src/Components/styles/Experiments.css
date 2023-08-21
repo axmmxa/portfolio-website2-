@@ -1,9 +1,11 @@
 .experiements {
     color: white;
+    position: relative;
 }
 
 .expiriements-box {
     display: flex;
+    margin-left: 100px;
     flex-direction: column;
     margin-top: 140px;
 }

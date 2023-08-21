@@ -1,15 +1,15 @@
 .others-says {
-    margin-top: 1900px;
-    
+    margin-top: 500px;
 }
 
 .comment {
     margin-top: 150px !important;
     color: white;
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: flex;
     align-items: start;
+    margin-left: 100px;
 }
 
 .quotation-marks {
@@ -21,6 +21,7 @@
 }
 
 .description {
+    width: 80%;
     font-size: 42px;
     line-height: 50px;
     font-weight: 300;
