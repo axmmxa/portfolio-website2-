@@ -110,3 +110,31 @@ export const Commercialdata = [
         text: 'id,Within the Internship during master thesis I developed a software that uses image recognition to detect quality issues of aircraft parts during production.'
     }
 ]
+
+export const Experimentsdata = [
+    {
+        id:1,
+        name:'Js JUMP & RUN GAME',
+        githubLink:'#',
+        launchLink:'#'
+    },
+    {
+        id:2,
+        name:'RING OF FIRE',
+        githubLink:'#',
+        launchLink:'#'
+    },
+    {
+        id:3,
+        name:'JOIN',
+        githubLink:'#',
+        launchLink:'#'
+    },
+    {
+        id:4,
+        name:'First Porfolio',
+        githubLink:'#',
+        launchLink:'#'
+    },
+     
+]

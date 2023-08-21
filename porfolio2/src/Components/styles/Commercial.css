@@ -1,14 +1,12 @@
-.commercial-logo {
-    display: flex;
-    justify-content: center;
-    margin-top: 140px;
+.commercial {
+    margin-top: 140pxpx;
 }
 
 .commercial-box {
     display: flex;
     align-items: center;
     width: 80%;
-    height: auto;
+    height: 248px;
     margin: auto;
     margin-top: 140px;
     color: white;
@@ -19,9 +17,6 @@
    width: 40%;
    display: flex;
    flex-direction: column;
-   align-items: start !important;
-   justify-content: start !important;
-   
 }
 
 .description-commercial h2 {
@@ -46,17 +41,14 @@
     color: #b9b9b9
 }
 
-.links-commercial{
-    
-}
-
-.links-commercial a {
-    margin-left: 0;
-}
 
 .second-link {
-    margin-left: 70px !important;
+    margin-left: 270px !important;
 }
+
+
+
+
 
 .projekt-picture {
     display: flex;

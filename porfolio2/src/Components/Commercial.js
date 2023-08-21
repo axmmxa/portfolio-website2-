@@ -3,13 +3,14 @@ import './styles/Commercial.css'
 import { Commercialdata } from './data'
 import Commerciallogo from '../images/Commercial.svg'
 import EmptyProjekt from '../images/EmptyProjekt.svg'
-import Arrow1 from '../images/Arrow 1.svg'
+import arrow from '../images/Arrow 1.svg'
 
 const Commercial = () => {
 
  return (
-    <>
-        <div className='commercial-logo'>
+    <>  
+        <div className='commercial'>
+        <div className='section-logo'>
             <img src={Commerciallogo}></img>
         </div>
         {Commercialdata.map((commercial)=>{
@@ -22,8 +23,8 @@ const Commercial = () => {
                         <p className='location'>{location}</p>
                         <p className='text'>{text}</p>
                         <div className='links-commercial'>
-                            <a>Launch<img src={Arrow1}></img></a>
-                            <a className='second-link'>GITHUB<img src={Arrow1}></img></a>
+                        <a className='link'>Launch<img src={arrow} className='arrow'></img></a>
+                        <a className='second-link link'>GITHUB<img src={arrow} className='arrow'></img></a>
                         </div>
                     </div>
 
@@ -34,6 +35,8 @@ const Commercial = () => {
                 </div>
             )
         })}
+        </div>
+        
     </>
     
  )
