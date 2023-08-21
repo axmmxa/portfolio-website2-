@@ -1,38 +1,23 @@
 .Navbar {
+    margin-top: 36px;
+    height: 20px;
     display: flex;
     align-items: center;
-    color: white;
-    margin-top: 33px;
-    font-family: Inter;
-    width: 95% !important;
-    margin: auto;
-    margin-top: 20px;
-}
-
-.Navbar img {
+    width: 100%;
+    position: relative;
 }
 
 .Nav-list {
-    width: 40%;
-    display: flex;
-    position: absolute;
-    right: 10px;
-    margin-right: 4rem;
-}
-
-.Nav-list a{
-    margin-left: 42px;
-    font-size: 12px;
+    position: absolute ;
+    right: 0 ;
     font-weight: 500;
+    font-family: Inter;
 }
 
-.Nav-list a:hover{
-    color: #AA1DA4;
-    text-decoration: underline;
-    cursor: pointer;
+.Nav-list > a {
+    font-size: 12px;
 }
 
-.scroll-down{
-    display: block !important;
-}
+
+
 
