@@ -20,6 +20,7 @@ function App() {
     <Main></Main>
     <Skills></Skills>
     <Technology></Technology>
+    <Experience></Experience>
     </>
   );
 }

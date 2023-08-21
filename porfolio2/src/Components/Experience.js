@@ -5,8 +5,9 @@ import { Experiencedata } from './data'
 
 const Experience = () => {
   return (
-    <>
-        <div className='experience-logo'>
+    <>  
+    <div className='expierences'>
+    <div className='section-logo'>
             <img src={Experiencelogo}></img>
         </div>
 
@@ -23,6 +24,9 @@ const Experience = () => {
                 )
             })}
         </div>
+
+    </div>
+        
     </>
   )
 }
