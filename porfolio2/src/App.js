@@ -19,6 +19,7 @@ function App() {
     <Navbar></Navbar>
     <Main></Main>
     <Skills></Skills>
+    <Technology></Technology>
     </>
   );
 }

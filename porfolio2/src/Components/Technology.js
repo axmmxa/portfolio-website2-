@@ -6,7 +6,8 @@ import {technologydata} from './data'
 const Technology = () => {
   return (
     <>
-        <div className='technology-logo'>
+        <div className='container technologys' >
+        <div className='section-logo'>
             <img src={Technologylogo}></img>
         </div>
 
@@ -16,14 +17,16 @@ const Technology = () => {
         return(
             
             <div key={id} className='technology'>
-                <h2>{headline}</h2>
-                <p>{text}</p>
+                <p className='one-technology'>{headline}</p>
+                <p className='technology-text'>{text}</p>
             </div>
         )
        })}
        
       
     </div>
+        </div>
+        
     </>
   )
 }
