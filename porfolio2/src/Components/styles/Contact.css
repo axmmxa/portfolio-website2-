@@ -10,6 +10,9 @@
     flex-direction: column;
     justify-content: center;
     margin: auto;
+
+    
+    
 }
 
 .contact h1{
@@ -22,6 +25,7 @@
 .contact-form{
     display: flex;
     flex-direction: column;
+   
 }
 
 .contact-form input {
@@ -31,7 +35,34 @@
   line-height: 28px;
   border-bottom: 1px solid #b9b9b9;
   margin-top: 65px;
+  background-color: black;
 }
+
+input:focus{
+    outline-width: 0;
+}
+
+
+input {
+    text-align: start;
+  }
+  
+  ::-webkit-input-placeholder {
+    
+    text-align: start;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  :-moz-placeholder {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: end;
+  }
+
+
+
 
 .contact-form textarea {
     border: none;
@@ -40,5 +71,13 @@
     line-height: 28px;
     border-bottom: 1px solid #b9b9b9;
     margin-top: 65px;
-    display: flex;
+    background-color: black;
   }
+
+textarea:focus{
+    outline-width: 0;
+}
+
+
+
+
