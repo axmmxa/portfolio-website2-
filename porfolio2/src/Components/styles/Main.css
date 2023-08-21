@@ -10,17 +10,17 @@
     justify-content: space-between;
 }
 
-h1 {
+.main h1{
     font-family: Franchise-Free-Bold;
     font-size: 10vw;
 }
 
-p {
+.main p {
     font-size: 0.5vw;
     font-family: Inter;
 }
 
-a { 
+.main a { 
     font-size: 0.5vw;
     font-family: Inter;
     margin-left: 40px;

@@ -18,14 +18,6 @@ function App() {
     <>
     <Navbar></Navbar>
     <Main></Main>
-    <Skills></Skills>
-    <Technology></Technology>
-    <Experience></Experience>
-    <OthersSay></OthersSay>
-    <Commercial></Commercial>
-    <Experiments></Experiments>
-    <Contact></Contact>
-    <Footer></Footer>
     </>
   );
 }

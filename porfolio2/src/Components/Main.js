@@ -6,7 +6,7 @@ import arrow2 from '../images/Arrow 2.svg'
 import './styles/Main.css'
 const Main = () => {
   return (<>
-    <div className='main'>
+    <div className='main container'>
 
       <div className='hello'>
         <h1>Hello</h1>

@@ -7,17 +7,29 @@
     position: relative;
 }
 
+.Navbar img{
+    position: absolute;
+    left: 0 !;
+}
+
 .Nav-list {
     position: absolute ;
     right: 0 ;
     font-weight: 500;
     font-family: Inter;
+    right: 0;
 }
 
-.Nav-list > a {
-    font-size: 12px;
+.Nav-list a{
+    margin-left: 45px;
 }
 
+
+
+
+.Nav-list a:hover {
+    text-decoration: underline;
+}
 
 
 

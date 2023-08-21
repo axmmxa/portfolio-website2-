@@ -15,7 +15,7 @@
 
 
   --container-width-lg:75%;
-  --container-width-md:94%;
+  --container-width-md:90%;
   --container-width-ms:99%;
 }
 
@@ -26,8 +26,6 @@ html {
 body {
   font-family: 'Inter', sans-serif;
   background-color: black;
-  display: flex;
-  justify-content: center;
 }
 
 
@@ -42,7 +40,7 @@ body {
 
 .container {
   width: var(--container-width-md);
-  margin: 0;
+  margin-top:  0;
   margin: auto;
 }
 
@@ -50,4 +48,14 @@ body {
   height: 11.99px;
   width: 41.22px;
   object-fit: cover;
+}
+
+a {
+  font-size: 12px;
+}
+
+.arrow-link {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
 }
