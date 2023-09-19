@@ -1,0 +1,26 @@
+.Me-text {
+    margin-top: 175px;
+    width: 100%;
+    font-size: 6.5vw;
+    font-family: "Franchise-Free-Bold";
+    text-align: left;
+}
+
+.Me-text p {
+    color: var(--color-grey);
+    
+}
+
+.center-text {
+    padding-left: 8.4vw;
+}
+
+/*=== Oversize Screens ===*/
+
+@media only screen and (min-width: 2592px) {
+    .Me-text {
+        font-size: 200px;
+    }
+  
+    
+  }

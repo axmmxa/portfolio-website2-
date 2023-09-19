@@ -10,6 +10,7 @@ import Experiments from './Components/Experiments';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Hello from './Components/Hello';
+import Me from './Components/Me';
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <>
     <Navbar></Navbar>
     <Hello></Hello>
+    <Me></Me>
     </>
   );
 }

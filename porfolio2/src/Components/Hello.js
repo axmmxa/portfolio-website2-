@@ -7,7 +7,7 @@ import './styles/Hello.css'
 const Hello = () => {
   return (<>
 
-      <div className='container hello-container content'>
+      <div className='container hello-container content-left'>
 
         <div className='hello'>
             <h1 className='h1-small'>HELLO</h1>

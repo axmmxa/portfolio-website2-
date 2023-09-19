@@ -44,9 +44,11 @@ body {
   margin: auto ;
 }
 
-.content {
+.content-left {
   padding-left: 4vw;
 }
+
+
 
 h1 {
   font-size: 8vw;
