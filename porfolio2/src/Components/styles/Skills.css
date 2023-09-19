@@ -36,11 +36,13 @@
     .skill-box{
         flex-direction: column;
     }
+
+    .skill{
+        width: 100%;
+        margin-top:80px;
+        padding-right: 5vw;
+    }
   } 
 
-  .skill{
-    width: 100%;
-    margin-top:80px;
-    padding-right: 5vw;
-}
+  
 

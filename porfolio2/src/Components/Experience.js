@@ -6,7 +6,7 @@ import { Experiencedata } from './data'
 const Experience = () => {
   return (
     <>  
-    <div className='expierences container'>
+    <div className='expierences container content-left'>
             <div className='section-logo'>
                 <img src={Experiencelogo}></img>
             </div>
