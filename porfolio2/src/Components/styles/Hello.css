@@ -50,7 +50,7 @@
 
     .h1-small {
         font-weight: 700;
-        font-size: 50px;
+        font-size: 5vw;
     }
     
     .hello {
@@ -61,5 +61,14 @@
         margin-top: 0;
     }
 }
+
+/*=== Moile-Screeen-Phone ===*/
+
+@media only screen and (max-width: 650px) {
+    .hello-container {
+        height: 155vw;
+        background-size: 120vw;
+    }
+  }
 
 

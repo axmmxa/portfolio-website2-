@@ -21,6 +21,29 @@
     .Me-text {
         font-size: 200px;
     }
-  
-    
+}
+
+/*=== Moile-Screens-Tablet ===*/
+
+@media only screen and (max-width: 1024px) {
+    .Me-text {
+        margin-top: 0px;
+        font-size: 7.5vw;
+    }
+
+    .center-text {
+        padding-left: 20vw;
+    }
   }
+
+ /*=== Moile-Screeen-Phone ===*/
+
+@media only screen and (max-width: 650px) {
+    .Me-text {
+        margin-top: 0;
+        width: 100%;
+        font-size: 6.5vw;
+        font-family: "Franchise-Free-Bold";
+        text-align: left;
+    }
+  } 
