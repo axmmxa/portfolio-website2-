@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.Navbar img{
+.nav-logo{
     position: absolute;
     left: 0 ;
 }
@@ -25,11 +25,52 @@
 }
 
 
-
-
 .Nav-list a:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+
+.nav-btn {
+    opacity: 0;
+    position: absolute ;
+    right: 0 ;
+    font-weight: 500;
+    font-family: Inter;
+    right: 0;
+    
+}
+
+@media only screen and (max-width: 1024px) {
+     .nav-btn {
+      visibility: visible;
+      opacity: 1;
+      position: absolute;
+      right: 0;
+     }
+       
+    
+    .responsive_nav{
+        transform: none;
+    }
+
+    .Nav-list {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--mainColor);
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+     
 }
 
 

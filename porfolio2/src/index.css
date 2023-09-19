@@ -14,7 +14,7 @@
 
   --container-width-lg:75%;
   --container-width-md:90%;
-  --container-width-ms:99%;
+  --container-width-ms:95%;
 }
 
 html {
@@ -22,14 +22,10 @@ html {
 }
 
 body {
+  max-width: 2592px;
   font-family: 'Inter', sans-serif;
   background-color: black;
   margin: auto;
-  background-image: url('./images/profile-picture.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 80%;
-  background-position-y: 0;
 }
 
 
@@ -43,9 +39,17 @@ body {
 /*=== GENERAL STEYELS ===*/
 
 .container {
-  width: var(--container-width-md);
+  width: var(--container-width-ms) !important;
   margin-top:  0;
   margin: auto ;
+}
+
+.content {
+  padding-left: 4vw;
+}
+
+h1 {
+  font-size: 8vw;
 }
 
 .logo-size {
@@ -66,6 +70,7 @@ a:hover{
   font-size: 12px;
   font-weight: 400;
   line-height: 14.52px;
+  
 }
 
 .arrow{
@@ -76,4 +81,32 @@ a:hover{
   display: flex;
   justify-content: center;
   margin-top: 140px;
+}
+
+.display-mobile-none {
+  display: all;
+}
+
+/*=== Oversize Screens ===*/
+
+@media only screen and (min-width: 2592px) {
+  h1 {
+    font-size: 200px;
+  }
+
+  .display-mobile-none {
+    display: none !important;
+  }
+}
+
+/*=== Moile-Screens-Tablet ===*/
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 100px;
+  }
+
+  .display-mobile-none {
+    display: none !important;
+  }
 }
