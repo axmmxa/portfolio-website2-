@@ -4,6 +4,9 @@
     font-size: 6.5vw;
     font-family: "Franchise-Free-Bold";
     text-align: left;
+    background-image: url('../../images/BlurryMebg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .Me-text p {

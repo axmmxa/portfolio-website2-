@@ -20,6 +20,7 @@ function App() {
     <Navbar></Navbar>
     <Hello></Hello>
     <Me></Me>
+    <Skills></Skills>
     </>
   );
 }
