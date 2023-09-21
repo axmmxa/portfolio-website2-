@@ -7,7 +7,7 @@ import { Experimentsdata } from './data'
 const Experiments = () => {
   return (
     <>
-        <div className='experiements container'>
+        <div className='experiements container content-left'>
 
             <div className='section-logo'>
               <img src={Experimentslogo}></img>

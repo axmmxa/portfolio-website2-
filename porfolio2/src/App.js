@@ -24,6 +24,7 @@ function App() {
     <Experience></Experience>
     <OthersSay></OthersSay>
     <Commercial></Commercial>
+    <Experiments></Experiments>
     </>
   );
 }
