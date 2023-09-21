@@ -9,10 +9,12 @@ const Commercial = () => {
 
  return (
     <>  
-        <div className='commercial'>
+        <div className='commercial container content-left'>
+
         <div className='section-logo'>
             <img src={Commerciallogo}></img>
         </div>
+
         {Commercialdata.map((commercial)=>{
             const {id,headline,location,text} = commercial
             return (
@@ -23,8 +25,8 @@ const Commercial = () => {
                         <p className='location'>{location}</p>
                         <p className='text'>{text}</p>
                         <div className='links-commercial'>
-                        <a className='link'>Launch<img src={arrow} className='arrow'></img></a>
-                        <a className='second-link link'>GITHUB<img src={arrow} className='arrow'></img></a>
+                        <a className='link display-mobile-none'>Launch<img src={arrow} className='arrow'></img></a>
+                        <a className='second-link link display-mobile-none'>GITHUB<img src={arrow} className='arrow'></img></a>
                         </div>
                     </div>
 

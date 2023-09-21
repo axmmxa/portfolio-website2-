@@ -23,6 +23,7 @@ function App() {
     <Skills></Skills>
     <Experience></Experience>
     <OthersSay></OthersSay>
+    <Commercial></Commercial>
     </>
   );
 }

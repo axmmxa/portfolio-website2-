@@ -4,8 +4,9 @@
 
 .commercial-box {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 100%;
     height: 248px;
     margin: auto;
     margin-top: 140px;
@@ -25,6 +26,14 @@
     line-height: 29.44px;
     color: white;
     margin-top: 0;
+}
+
+.description-commercial p {
+    margin-top: 15px;
+}
+
+.links-commercial  {
+    margin-top: 45px;
 }
 
 .location {
@@ -51,12 +60,31 @@
 
 
 .projekt-picture {
+    width: 50%;
     display: flex;
     justify-content: end;
 }
 
 .projekt-picture img {
-    width: 80% !important;
+    width: 100% !important;
     height: auto !important;
 }
 
+/*=== Moile-Screens-Tablet ===*/
+
+@media only screen and (max-width: 1024px) {
+    .commercial-box {
+        display: flex;
+        flex-direction: column-reverse;
+       
+    }
+
+    .description-commercial {
+        margin-top: 30px;
+        width: 100%;
+     }
+
+     .projekt-picture {
+        width: 100%;
+    }
+  }
