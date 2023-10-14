@@ -11,7 +11,7 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Hello from './Components/Hello';
 import Me from './Components/Me';
-
+import Test from './Components/Test';
 
 
 function App() {
@@ -21,7 +21,8 @@ function App() {
     <Hello></Hello>
     <Me></Me>
     <Skills></Skills>
-   
+    <Technology></Technology>
+    <Test></Test>
     </>
   );
 }

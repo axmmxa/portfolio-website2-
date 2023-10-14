@@ -6,7 +6,7 @@ import {technologydata} from './data'
 const Technology = () => {
   return (
     <>
-        <div className='container technologys' >
+        <div className='container technologys content-left spacer-tall' >
         <div className='section-logo'>
             <img src={Technologylogo}></img>
         </div>

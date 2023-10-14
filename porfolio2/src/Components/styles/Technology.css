@@ -1,17 +1,13 @@
 .technologys {
-    margin-top: 800px;
-    position: relative;
     height: auto;
-    margin-left: 100px;
 }
 
 .technology-box{
     margin-top: 110px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-flow: wrap;
-    position: absolute;
 }
 
 .technology {

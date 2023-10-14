@@ -1,6 +1,5 @@
 
 .skills {
-    position: relative;
     height: auto;
 }
 
@@ -9,7 +8,6 @@
     display: flex;
     justify-content: space-between;
     flex-flow: wrap;
-    position: absolute;
 }
 
 .skill{
