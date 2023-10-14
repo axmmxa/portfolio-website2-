@@ -3,7 +3,7 @@
 }
 
 .technology-box{
-    margin-top: 110px;
+   
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -28,3 +28,36 @@
     line-height:26px;
     font-weight: 300;
 }
+
+
+  /*=== Moile-Screens-Tablet ===*/
+
+  @media only screen and (max-width: 1024px) {
+    
+  }
+    
+    /*=== Moile-Screeen-Phone ===*/
+    
+    @media only screen and (max-width: 650px) {
+  
+        .technology {
+            width: 100%;
+        }
+
+        .one-technology {
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 24px;
+        }
+        
+        .technology-text {
+            margin-top: 5px;
+            color: var(--color-grey);
+            font-size: 12px;
+            line-height:26px;
+            font-weight: 300;
+        }
+       
+    
+    }
+    

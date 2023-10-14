@@ -29,17 +29,7 @@
     font-weight: 300;
 }
 
-@media only screen and (max-width: 650px) {
-    .skill-box{
-        flex-direction: column;
-    }
 
-    .skill{
-        width: 100%;
-        margin-top:80px;
-        padding-right: 5vw;
-    }
-  } 
 
   /*=== Moile-Screens-Tablet ===*/
 
@@ -63,6 +53,16 @@
         font-size: 12px;
         line-height:26px;
         font-weight: 300;
+    }
+
+    .skill-box{
+        flex-direction: column;
+    }
+
+    .skill{
+        width: 100%;
+        margin-top:80px;
+        padding-right: 5vw;
     }
   
   }
