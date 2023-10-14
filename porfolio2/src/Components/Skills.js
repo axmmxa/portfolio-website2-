@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <>
 
-    <div className='skills container'>
+    <div className='skills container content-left'>
     <div className='section-logo'>
         <img src={skills}></img>
     </div>
