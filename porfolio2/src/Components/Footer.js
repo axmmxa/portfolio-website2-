@@ -4,13 +4,13 @@ import logosmall from '../images/logo-small.svg'
 
 const Footer = () => {
   return (
-    <div className='footer container'>
+    <div className='footer container content-left'>
       <div className='impressum'>
-        <p>PRIVACY</p>
-        <p>IMPRESSUM</p>
+        <a>PRIVACY</a>
+        <a>IMPRESSUM</a>
       </div>
       <img src={logosmall} className='logo-size'></img>
-      <p>COPYRIGHT ALEXANDER MUCH 2023</p>
+      <a>COPYRIGHT ALEXANDER MUCH 2023</a>
     </div>
   )
 }

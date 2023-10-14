@@ -16,7 +16,7 @@ const Technology = () => {
         const {id, headline, text} = tech
         return(
             
-            <div key={id} className='technology'>
+            <div key={id} className='technology spacer-tall'>
                 <p className='one-technology'>{headline}</p>
                 <p className='technology-text'>{text}</p>
             </div>

@@ -5,7 +5,7 @@ import  './styles/Contact.css'
 const Contact = () => {
   return (
    <>
-        <div className='contact-logo'>
+        <div className='contact-logo spacer-tall'>
             <img src={Contactlogo}></img>
         </div>
 

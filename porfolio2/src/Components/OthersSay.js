@@ -8,7 +8,7 @@ const OthersSay = () => {
   return (
     <>
 
-    <div className='others-says container content-left'>
+    <div className='others-says container content-left spacer-tall'>
         
         <div className='section-logo'>
             <img src={OthersSays}></img>

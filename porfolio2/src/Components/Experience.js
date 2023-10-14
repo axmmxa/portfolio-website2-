@@ -6,12 +6,12 @@ import { Experiencedata } from './data'
 const Experience = () => {
   return (
     <>  
-    <div className='expierences container content-left'>
+    <div className='expierences container content-left spacer-tall'>
             <div className='section-logo'>
                 <img src={Experiencelogo}></img>
             </div>
 
-            <div className='expierence-box'>
+            <div className='expierence-box spacer-tall'>
                 {Experiencedata.map((experience)=>{
                     const{id,headline1, headline2, description, text} = experience
                     return(

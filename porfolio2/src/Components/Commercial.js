@@ -9,7 +9,7 @@ const Commercial = () => {
 
  return (
     <>  
-        <div className='commercial container content-left'>
+        <div className='commercial container content-left spacer-tall'>
 
         <div className='section-logo'>
             <img src={Commerciallogo}></img>
@@ -18,7 +18,7 @@ const Commercial = () => {
         {Commercialdata.map((commercial)=>{
             const {id,headline,location,text} = commercial
             return (
-                <div key={id} className='commercial-box'>
+                <div key={id} className='commercial-box spacer-tall'>
 
                     <div className='description-commercial'>
                         <h2>{headline}</h2>

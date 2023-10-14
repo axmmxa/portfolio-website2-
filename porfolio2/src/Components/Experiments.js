@@ -7,13 +7,13 @@ import { Experimentsdata } from './data'
 const Experiments = () => {
   return (
     <>
-        <div className='experiements container content-left'>
+        <div className='experiements container content-left spacer-tall'>
 
             <div className='section-logo'>
               <img src={Experimentslogo}></img>
             </div>
             
-            <div  className='expiriements-box'>
+            <div  className='expiriements-box spacer-tall'>
               {Experimentsdata.map((expiriement)=> {
                 const{id,name,githubLink,launchLink} = expiriement
                 return(

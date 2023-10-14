@@ -22,7 +22,12 @@ function App() {
     <Me></Me>
     <Skills></Skills>
     <Technology></Technology>
-    <Test></Test>
+    <Experience></Experience>
+    <OthersSay></OthersSay>
+    <Commercial></Commercial>
+    <Experiments></Experiments>
+    <Contact></Contact>
+    <Footer></Footer>
     </>
   );
 }

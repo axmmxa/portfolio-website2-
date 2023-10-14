@@ -1,5 +1,5 @@
 .expierences {
-    margin-top: 800px;
+    
 }
 
 .expierence-box{
@@ -8,7 +8,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 140px;
     background-image: url('../../images/BlurryExperience.png');
     background-repeat: no-repeat;
     background-position: right;
