@@ -21,10 +21,7 @@ function App() {
     <Hello></Hello>
     <Me></Me>
     <Skills></Skills>
-    <Experience></Experience>
-    <OthersSay></OthersSay>
-    <Commercial></Commercial>
-    <Experiments></Experiments>
+   
     </>
   );
 }

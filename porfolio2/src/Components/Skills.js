@@ -6,12 +6,12 @@ const Skills = () => {
   return (
     <>
 
-    <div className='skills container content-left'>
+    <div className='skills container content-left spacer-tall'>
     <div className='section-logo'>
         <img src={skills}></img>
     </div>
 
-    <div className='skill-box'>
+    <div className='skill-box spacer-tall'>
        {skilldata.map((skill)=>{
         const {id, headline, text} = skill
         return(
