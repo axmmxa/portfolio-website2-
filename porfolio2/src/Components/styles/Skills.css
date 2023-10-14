@@ -41,5 +41,30 @@
     }
   } 
 
+  /*=== Moile-Screens-Tablet ===*/
+
+@media only screen and (max-width: 1024px) {
+  
+}
+  
+  /*=== Moile-Screeen-Phone ===*/
+  
+  @media only screen and (max-width: 650px) {
+
+    .one-skill {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .skill-text {
+        margin-top: 5px;
+        color: var(--color-grey);
+        font-size: 12px;
+        line-height:26px;
+        font-weight: 300;
+    }
+  
+  }
   
 
