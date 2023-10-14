@@ -13,9 +13,9 @@
     align-items: start;
 }
 
-.quotation-marks {
-    font-size: 92px;
+.quotation-marks img {
 }
+
 
 .description-box {
     margin-left: 40px;
@@ -50,12 +50,14 @@
 
 /*=== Moile-Screens-Tablet ===*/
 @media only screen and (max-width: 1024px) {
-    .quotation-marks {
-        font-size: 80px;
+    
+
+    .quotation-marks img {
+        height: 20px;
     }
 
     .description {
-        font-size: 37px;
+        font-size: 20px;
     }
     
   }
@@ -63,8 +65,8 @@
 
    /*=== Moile-Screeen-Phone ===*/
   @media only screen and (max-width: 650px) {
-    .quotation-marks {
-        font-size: 50px !;
+    .quotation-marks img {
+        
     }
 
     .description {

@@ -130,10 +130,13 @@ a:hover{
 
 /*=== Moile-Screeen-Phone ===*/
 
+.display-mobile-phone-none {
+  display: none;
+}
+
 @media only screen and (max-width: 650px) {
   .spacer-tall{
     margin-top: 90px;
   }
 
-  
 }
