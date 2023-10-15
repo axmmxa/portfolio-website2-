@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import './styles/Navbar.css'
 import logosmall from '../images/logo-small.svg'
 import Buggerbutton from '../images/Hamburger.svg'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -23,11 +24,12 @@ const Navbar = () => {
 
         
         <div ref={navRef} className='Nav-list'>
-          <a>ABOUT ME</a>
-          <a>SKILLS</a>
-          <a>EXPIERENCE</a>
-          <a>WORK</a>
-          <a>CONTACT</a>
+        <a ><Link onClick={showNavbar} to='Skills'>ABOUT ME</Link></a>
+        <a ><Link onClick={showNavbar} to='/'>SKILLS</Link></a>
+        <a ><Link onClick={showNavbar} to='/'>EXPIERENCE</Link></a>
+        <a ><Link onClick={showNavbar} to='/'>WORK</Link></a>
+        <a ><Link onClick={showNavbar} to='/'>CONTACT</Link></a>
+          
 
          </div>
 
