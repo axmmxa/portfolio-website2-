@@ -18,7 +18,7 @@ const OthersSay = () => {
         const {id, description, person, title} = OthersSays
         return(
             <div key={id} className='comment'>
-                <div className='quotation-marks'>
+                <div className='quotation-marks display-mobile-phone-none '>
                     <img src={quotationMarks}></img>
                 </div>
                 <div className='description-box'>

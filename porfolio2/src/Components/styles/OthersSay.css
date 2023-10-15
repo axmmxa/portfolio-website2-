@@ -70,6 +70,11 @@
     }
 
     .description {
+        width: 100%;
         font-size: 20px;
+    }
+
+    .description-box {
+        margin-left: 0;
     }
   } 
