@@ -5,11 +5,11 @@ import  './styles/Contact.css'
 const Contact = () => {
   return (
    <>
-        <div className='contact-logo spacer-tall'>
+        <div className='contact-logo spacer-tall  content-left'>
             <img src={Contactlogo}></img>
         </div>
 
-        <div className='contact'>
+        <div className='contact content-left '>
             <h1>Let's talk</h1>
 
             <form className='contact-form'>

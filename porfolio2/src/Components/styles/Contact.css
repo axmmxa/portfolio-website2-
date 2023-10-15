@@ -8,10 +8,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: auto;
-
-    
-    
+    margin: auto; 
 }
 
 .contact h1{
@@ -79,4 +76,37 @@ textarea:focus{
 
 
 
+/*=== Moile-Screens-Tablet ===*/
 
+@media only screen and (max-width: 1024px) {
+  .contact {
+    width: var(--container-width-ms) !important;
+}
+
+.contact h1{
+  font-size: 8vw;
+  font-weight: 500;
+  line-height: 62.93px;
+  margin-top: 140px;
+}
+
+}
+/*=== Moile-Screeen-Phone ===*/
+@media only screen and (max-width: 650px) {
+  .contact h1{
+    font-size: 10vw;
+    font-weight: 500;
+    line-height: 62.93px;
+    margin-top: 140px;
+  }
+
+  .contact-form input {
+    border: none;
+    font-size: 12px !important;
+    font-weight: 200;
+    line-height: 28px;
+    border-bottom: 1px solid #b9b9b9;
+    margin-top: 65px;
+    background-color: black;
+  }
+}
