@@ -7,9 +7,13 @@
 }
 
 :root {
+
   --color-purple: #BE24A5;
   --color-grey: #B9B9B9;
   --color-white:#fff;
+
+  --color-purple-highlite: #9747ff;
+  --color-blue-click: #7307FF;
 
 
   --container-width-lg:75%;
@@ -72,6 +76,7 @@ a {
 
 a:hover{
   cursor: pointer;
+  color: var(--color-purple-highlite);
 }
 
 .link {
@@ -81,13 +86,9 @@ a:hover{
 }
 
 
-
-
-
 .arrow{
   margin-left: 7px;
 }
-
 
 .section-logo {
   display: flex;

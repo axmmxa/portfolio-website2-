@@ -28,6 +28,7 @@
 .Nav-list a:hover {
     text-decoration: underline;
     cursor: pointer;
+    color: var(--color-purple-highlite);
 }
 
 
