@@ -94,6 +94,10 @@ a:hover{
   justify-content: center;
 }
 
+.display-normal-none {
+  display: none;
+}
+
 .display-mobile-none {
   display: all;
 }
@@ -139,8 +143,6 @@ a:hover{
     margin-top: 90px;
   }
 
-  .display-mobile-phone-none {
-    display: none;
-  }
+  
 
 }

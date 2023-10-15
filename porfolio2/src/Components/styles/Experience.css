@@ -76,6 +76,7 @@
     /*=== Moile-Screeen-Phone ===*/
     
     @media only screen and (max-width: 650px) {
+        
         .headline1 {
             margin: 0;
             font-size: 14px;
