@@ -20,3 +20,20 @@
     margin-top: 25px;
 }
 
+
+/*=== Moile-Screens-Tablet ===*/
+@media only screen and (max-width: 1024px) {
+    .expiriement h1 {
+        font-size: 5vw;
+        font-weight: 500;
+        line-height: 2vw;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }    
+} 
+
+
+   /*=== Moile-Screeen-Phone ===*/
+  @media only screen and (max-width: 650px) {
+   
+  } 
