@@ -2,7 +2,8 @@ import React, { useRef } from 'react'
 import './styles/Navbar.css'
 import logosmall from '../images/logo-small.svg'
 import Buggerbutton from '../images/Hamburger.svg'
-import { Link } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 
 const Navbar = () => {
 
@@ -16,6 +17,7 @@ const Navbar = () => {
 
 
   return (
+    
     <div className='container'>
       
       <div  className='Navbar '>
@@ -24,11 +26,11 @@ const Navbar = () => {
 
         
         <div ref={navRef} className='Nav-list'>
-        <a ><Link onClick={showNavbar} to='Skills'>ABOUT ME</Link></a>
-        <a ><Link onClick={showNavbar} to='/'>SKILLS</Link></a>
-        <a ><Link onClick={showNavbar} to='/'>EXPIERENCE</Link></a>
-        <a ><Link onClick={showNavbar} to='/'>WORK</Link></a>
-        <a ><Link onClick={showNavbar} to='/'>CONTACT</Link></a>
+        <a ><Link onClick={showNavbar} to='#about'>ABOUT ME</Link></a>
+        <a ><Link onClick={showNavbar} to='#skills'>SKILLS</Link></a>
+        <a ><Link onClick={showNavbar} to='#expierence'>EXPIERENCE</Link></a>
+        <a ><Link onClick={showNavbar} to='#work'>WORK</Link></a>
+        <a ><Link onClick={showNavbar} to='#contact'>CONTACT</Link></a>
           
 
          </div>
@@ -39,6 +41,7 @@ const Navbar = () => {
      
 
     </div>
+    
   )
 }
 

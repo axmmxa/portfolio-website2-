@@ -16,10 +16,14 @@ import Me from './Components/Me';
 
 
 
+
+
 function App() {
   return (
     <>
     <Navbar></Navbar>
+
+   
     <Hello></Hello>
     <Me></Me>
     <Skills></Skills>
@@ -29,6 +33,8 @@ function App() {
     <Commercial></Commercial>
     <Experiments></Experiments>
     <Contact></Contact>
+
+    
     <Footer></Footer>
     </>
   );

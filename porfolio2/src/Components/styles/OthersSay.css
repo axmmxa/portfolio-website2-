@@ -1,7 +1,8 @@
 .others-says {
-    
-    background-image: url('../../images/BlurryOthersays.png');
+    background-image: url('../../images/BlurryMebg.png');
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
 }
 
 .comment {
