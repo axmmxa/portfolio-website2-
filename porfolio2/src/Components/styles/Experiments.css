@@ -10,30 +10,45 @@
 
 .expiriement {
     border-bottom: 1px solid var(--color-grey);
+    display: flex;
+    justify-content: space-between;
 }
 
 .expiriement:hover{
-    background-color: var(--color-purple-highlite);
+    background-color: var(--color-baby-blue);
 }
 
 .left-section{
     width: 50%;
-    background-color: red;
 }
 
 .expiriement h1 {
-    font-size: 52px;
+    font-size: 45px;
     font-weight: 500;
     line-height: 47px;
     margin-bottom: 25px;
     margin-top: 25px;
 }
 
+.link-section{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 25px;
+}
+
+.link-left-margin {
+    margin-left: 2vw;
+}
+
+.right-section {
+    width: 40%;
+    margin-top: 25px;
+}
 
 /*=== Moile-Screens-Tablet ===*/
 @media only screen and (max-width: 1024px) {
     .expiriement h1 {
-        font-size: 5vw;
+        font-size: 4vw;
         font-weight: 500;
         line-height: 2vw;
         margin-bottom: 25px;
