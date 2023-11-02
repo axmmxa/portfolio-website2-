@@ -18,7 +18,15 @@ const Experiments = () => {
                 const{id,name,githubLink,launchLink} = expiriement
                 return(
                   <div className='expiriement' key={id}>
-                    <h1>{name}</h1>
+
+                    <div className='left-section'>
+                        <h1>{expiriement.name}</h1>
+                    </div>
+
+                    <div className='right-section'>
+                      test
+                    </div>
+
                   </div>
                 )
               })}

@@ -16,6 +16,11 @@
     background-color: var(--color-purple-highlite);
 }
 
+.left-section{
+    width: 50%;
+    background-color: red;
+}
+
 .expiriement h1 {
     font-size: 52px;
     font-weight: 500;

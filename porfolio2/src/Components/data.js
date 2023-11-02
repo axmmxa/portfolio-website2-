@@ -135,25 +135,29 @@ export const Experimentsdata = [
         id:1,
         name:'Js JUMP & RUN GAME',
         githubLink:'#',
-        launchLink:'#'
+        launchLink:'#',
+        text:'Bla jum o an run voll toll, *kann zählen und fahrne und fleigen und grewinnen.Assest selbst gemat bla bla'
     },
     {
         id:2,
         name:'RING OF FIRE',
         githubLink:'#',
-        launchLink:'#'
+        launchLink:'#',
+        text:'Bla jum o an run voll toll, *kann zählen und fahrne und fleigen und grewinnen.Assest selbst gemat bla bla'
     },
     {
         id:3,
         name:'JOIN',
         githubLink:'#',
-        launchLink:'#'
+        launchLink:'#',
+        text:'Bla jum o an run voll toll, *kann zählen und fahrne und fleigen und grewinnen.Assest selbst gemat bla bla'
     },
     {
         id:4,
         name:'First Porfolio',
         githubLink:'#',
-        launchLink:'#'
+        launchLink:'#',
+        text:'Bla jum o an run voll toll, *kann zählen und fahrne und fleigen und grewinnen.Assest selbst gemat bla bla'
     },
      
 ]
