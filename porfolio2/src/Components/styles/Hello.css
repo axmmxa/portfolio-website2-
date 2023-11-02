@@ -1,4 +1,19 @@
 
+.scroll-down-arrow {
+    position: absolute;
+    left: 2.5vw;
+    top: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.turn-arround {
+    margin-top: 20px;
+    rotate: 90deg;
+}
+
 .hello-container {
     width: 100%;
     height: 900px;
