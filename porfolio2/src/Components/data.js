@@ -1,3 +1,6 @@
+import Javascript from '../images/Javascript.png'
+import Typescript from '../images/Typescript.png'
+
 export const skilldata = [
     {
         id:1,
@@ -25,26 +28,42 @@ export const skilldata = [
 
 export const technologydata = [
     {
-        id: 1,
-        headline: 'Javascript',
-        text: 'Experience developing front-end applications with vanilla JavaScript as well as popular frameworks like Angular and React.'
+        id:1,
+        TechImage: Javascript,
+        headline: "Javascript",
+        text:"Experience developing front-end applications with vanilla JavaScript as well as popular frameworks like Angular and React."
     },
     {
-        id: 2,
-        headline: 'Typescript',
-        text: 'Knowledge of the statically-typed superset of JavaScript and experience using it to build scalable and maintainable applications.'
+        id:2,
+        TechImage: Typescript,
+        headline: "Typescript",
+        text:"Experience developing front-end applications with vanilla JavaScript as well as popular frameworks like Angular and React"
     },
     {
         id:3,
-        headline: 'HTML/CSS:',
-        text: 'Proficient in creating and styling web pages using HTML and CSS, with experience using popular frameworks like Bootstrap and Material Design.'
+        TechImage: Typescript,
+        headline: "Javascript",
+        text:"Experience developing front-end applications with vanilla JavaScript as well as popular frameworks like Angular and React"
     },
     {
         id:4,
-        headline: 'Frameworks',
-        text: 'Lorem Ipsum'
-    }
-
+        TechImage: Typescript,
+        headline: "Javascript",
+        text:"Experience developing front-end applications with vanilla JavaScript as well as popular frameworks like Angular and React"
+    },
+    {
+        id:4,
+        TechImage: Typescript,
+        headline: "Javascript",
+        text:"Experience developing front-end applications with vanilla JavaScript as well as popular frameworks like Angular and React"
+    },
+    {
+        id:4,
+        TechImage: Typescript,
+        headline: "Javascript",
+        text:"Experience developing front-end applications with vanilla JavaScript as well as popular frameworks like Angular and React"
+    },
+    
 ]
 
 

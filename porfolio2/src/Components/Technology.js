@@ -1,30 +1,38 @@
 import React from 'react'
 import './styles/Technology.css'
-import Technologylogo from '../images/Technology.svg'
+
 import {technologydata} from './data'
+import TechnologyLogo from '../images/Technology.svg'
 
 const Technology = () => {
   return (
     <>
         <div className='container technologys content-left spacer-tall' >
+
         <div className='section-logo'>
-            <img src={Technologylogo}></img>
+            <img src={TechnologyLogo}></img>
         </div>
 
-        <div className='technology-box'>
-       {technologydata.map((tech)=>{
-        const {id, headline, text} = tech
-        return(
-            
-            <div key={id} className='technology spacer-tall'>
-                <p className='one-technology'>{headline}</p>
-                <p className='technology-text'>{text}</p>
-            </div>
-        )
-       })}
-       
-      
-    </div>
+        <div className='tech-box spacer-tall'>
+            {technologydata.map((tech) => {
+                return(
+                    
+
+                        <div className='one-tech'>
+                            <div className='tech-image'>
+                                <img src={tech.TechImage}></img>
+                            </div>
+
+                            <div className='tech-description'>
+                                <h2>{tech.headline}</h2>
+                                <p>{tech.text}</p>
+                            </div>
+                        </div>
+                    
+                )
+            })}
+        </div>
+        
         </div>
         
     </>

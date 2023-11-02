@@ -1,34 +1,61 @@
 .technologys {
     height: auto;
+    width: 100%;
 }
 
-.technology-box{
-   
+.tech-box {
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-flow: wrap;
+    flex-wrap: wrap;
 }
 
-.technology {
+.one-tech {
     width: 40%;
-    
+    display: flex;
+    margin-bottom: 100px;
 }
 
-.one-technology {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
+.tech-image {
+    width: 30%;
+    margin-right: 3px;
 }
 
-.technology-text {
-    margin-top: 5px;
+.tech-image img{
+    width: 140px;
+}
+
+.tech-description{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tech-description p {
     color: var(--color-grey);
     font-size: 16px;
     line-height:26px;
     font-weight: 300;
 }
 
+
+    /*=== Special Break Point ===*/
+
+  @media only screen and (max-width: 1290px) {
+    .tech-image img{
+        width: 110px;
+    }
+
+    .tech-description p {
+        font-size: 12px;
+        line-height:22px;
+        font-weight: 300;
+    }
+
+    
+  }
 
   /*=== Moile-Screens-Tablet ===*/
 
@@ -38,25 +65,9 @@
     
     /*=== Moile-Screeen-Phone ===*/
     
-    @media only screen and (max-width: 650px) {
+@media only screen and (max-width: 650px) {
   
-        .technology {
-            width: 100%;
-        }
-
-        .one-technology {
-            font-size: 12px;
-            font-weight: 600;
-            line-height: 24px;
-        }
-        
-        .technology-text {
-            margin-top: 5px;
-            color: var(--color-grey);
-            font-size: 12px;
-            line-height:26px;
-            font-weight: 300;
-        }
+       
        
     
     }
