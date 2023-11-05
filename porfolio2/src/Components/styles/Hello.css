@@ -1,8 +1,10 @@
 
 .scroll-down-arrow {
+    height: 100px;
+    width: 100px;
     position: absolute;
-    left: 2.5vw;
-    top: 850px;
+    left: 1.1vw;
+    top: 890px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,13 +79,23 @@
     }
 }
 
-/*=== Moile-Screeen-Phone ===*/
+/*=== Oversize Screens ===*/
 
-@media only screen and (max-width: 650px) {
-    .hello-container {
-        height: 155vw;
-        background-size: 120vw;
+@media only screen and (min-width: 2592px) {
+    
+    .scroll-down-arrow {
+        display: none;
     }
+    
+  }
+
+/*=== Moile-Screeen-Tablet ===*/
+
+@media only screen and (max-width: 1024px) {
+    .scroll-down-arrow {
+        display: none;
+    }
+    
   }
 
 

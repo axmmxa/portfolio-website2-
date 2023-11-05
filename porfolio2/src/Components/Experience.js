@@ -17,8 +17,8 @@ const Experience = () => {
                     return(
                             <div key={id} className='experience'>
                             <h2 className='headline1'>{headline1}</h2>
-                            <h2 className='headline2'>{headline2}</h2>
-                            <h4>{description}</h4>
+                            <p className='headline2'>{headline2}</p>
+                            <p className='text-blue'>{description}</p>
                             <p>{text}</p>
                     </div>
                 )

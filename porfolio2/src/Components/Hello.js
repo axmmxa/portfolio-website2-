@@ -10,8 +10,8 @@ const Hello = () => {
       <div id='about' className='container hello-container content-left'>
 
         <div className='scroll-down-arrow'>
-        <a className='link'>Scroll</a>
-        <a className='link'><img src={arrow} className='arrow turn-arround'></img></a>
+          <a className='link'>Scroll</a>
+          <a className='link'><img src={arrow} className='arrow turn-arround'></img></a>
         </div>
 
         <div className='hello'>
@@ -31,8 +31,6 @@ const Hello = () => {
             </div>
             
         </div>
-
-       
 
       </div>
 

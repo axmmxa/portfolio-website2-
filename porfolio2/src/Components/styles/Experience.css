@@ -52,6 +52,11 @@
     font-weight: 400;
 }
 
+.text-blue{
+    color: var(--color-baby-blue) !important;
+    
+}
+
 
 /*=== Moile-Screens-Tablet ===*/
 

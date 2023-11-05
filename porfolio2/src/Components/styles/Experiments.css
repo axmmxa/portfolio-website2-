@@ -1,5 +1,4 @@
 .experiements {
-    color: white;
     position: relative;
 }
 
@@ -12,12 +11,23 @@
     border-bottom: 1px solid var(--color-grey);
     display: flex;
     justify-content: space-between;
+    padding-left: 20px;
 }
 
 .expiriement:hover{
     background-color: var(--color-baby-blue);
 }
 
+.expiriement:hover h1  {
+   color: black
+}
+
+.expiriement:hover a  {
+    color: black
+ }
+
+
+ 
 .left-section{
     width: 50%;
 }
@@ -34,6 +44,10 @@
     display: flex;
     justify-content: start;
     margin-bottom: 25px;
+}
+
+.link-section a {
+    
 }
 
 .link-left-margin {
