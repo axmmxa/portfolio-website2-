@@ -2,7 +2,7 @@ import React from 'react'
 import './styles/Technology.css'
 
 import {technologydata} from './data'
-import TechnologyLogo from '../images/Technology.svg'
+import TechnologyLogo from '../images/technology.svg'
 
 const Technology = () => {
   return (
