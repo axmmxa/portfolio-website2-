@@ -87,6 +87,10 @@ button {
   align-items: center;
 }
 
+button:hover {
+  border: 1px solid var(--color-baby-blue);
+}
+
 
 
 /*=== Moile-Screens-Tablet ===*/

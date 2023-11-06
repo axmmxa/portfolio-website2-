@@ -39,7 +39,7 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 28px;
-    color: #BE24A5;
+    color: var(--color-baby-blue);
 }
 
 .text {
