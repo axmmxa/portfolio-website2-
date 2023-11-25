@@ -48,17 +48,30 @@
     justify-content: space-between;
 }
 
+/*=== Oversize Screens ===*/
+
+@media only screen and (min-width: 2592px) {
+    
+    .scroll-down-arrow {
+        display: none;
+    }
+    
+}
+
 
 
 /*=== Moile-Screens-Tablet ===*/
 @media only screen and (max-width: 1024px) {
+    .scroll-down-arrow {
+        display: none;
+    }
+
     .hello-container {
         height: 1000px;
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: center;
-       
     }
 
     .hello-discription {
@@ -79,21 +92,17 @@
     }
 }
 
-/*=== Oversize Screens ===*/
 
-@media only screen and (min-width: 2592px) {
-    
-    .scroll-down-arrow {
-        display: none;
-    }
-    
-  }
 
-/*=== Moile-Screeen-Tablet ===*/
+/*=== Moile-Screeen-Phone ===*/
 
-@media only screen and (max-width: 1024px) {
-    .scroll-down-arrow {
-        display: none;
+@media only screen and (max-width: 650px) {
+    .hello-container {
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
     }
     
   }
