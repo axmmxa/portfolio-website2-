@@ -16,8 +16,7 @@ const Technology = () => {
         <div className='tech-box spacer-tall'>
             {technologydata.map((tech) => {
                 return(
-                    
-
+        
                         <div className='one-tech'>
                             <div className='tech-image'>
                                 <img src={tech.TechImage}></img>

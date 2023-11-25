@@ -80,13 +80,40 @@
         font-weight: 300;
     }
   }
+
+
+/*=== Special Break Point ===*/
     
-    /*=== Moile-Screeen-Phone ===*/
+@media only screen and (max-width: 950px) {
+  .tech-description{
+    display: none;
+  }
+
+  .tech-box {
+   
+}
+
+
+.one-tech {
+    
+}
+
+.tech-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+
+    
+/*=== Moile-Screeen-Phone ===*/
     
 @media only screen and (max-width: 650px) {
   
        
        
     
-    }
+}
     
