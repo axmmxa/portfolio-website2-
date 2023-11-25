@@ -24,7 +24,7 @@ const Technology = () => {
                             </div>
 
                             <div className='tech-description'>
-                                <p className='headline-tech'>test</p>
+                                <p className='headline-tech'>{tech.headline}</p>
                                 <p className='text-tech'>{tech.text}</p>
                             </div>
                         </div>

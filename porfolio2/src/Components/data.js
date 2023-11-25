@@ -1,5 +1,12 @@
 import Javascript from '../images/Javascript.png'
 import Typescript from '../images/Typescript.png'
+import Html from '../images/HTML.png'
+import React from '../images/React.png'
+import Angular from '../images/Angular.png'
+import Node from '../images/Node.png'
+import Sql from '../images/Sql.png'
+import Git from '../images/Git.png'
+
 
 export const skilldata = [
     {
@@ -29,38 +36,50 @@ export const skilldata = [
 export const technologydata = [
     {
         id:1,
-        TechImage: Javascript,
-        headline: "Javascript",
+        TechImage: Html,
+        headline: "HTML",
         text:"Experience developing front-end applications with vanilla JavaScript as well as popular frameworks like Angular and React."
     },
     {
         id:2,
-        TechImage: Typescript,
+        TechImage: Javascript,
         headline: "Typescript",
         text:"Experience developing front-end applications with vanilla JavaScript as well as popular frameworks like Angular and React"
     },
     {
         id:3,
         TechImage: Typescript,
-        headline: "Javascript",
+        headline: "Typescript",
         text:"Experience developing front-end applications with vanilla JavaScript as well as popular frameworks like Angular and React"
     },
     {
         id:4,
-        TechImage: Typescript,
-        headline: "Javascript",
+        TechImage: React,
+        headline: "React",
         text:"Experience developing front-end applications with vanilla JavaScript as well as popular frameworks like Angular and React"
     },
     {
         id:4,
-        TechImage: Typescript,
-        headline: "Javascript",
+        TechImage: Angular,
+        headline: "Angular",
         text:"Experience developing front-end applications with vanilla JavaScript as well as popular frameworks like Angular and React"
     },
     {
         id:4,
-        TechImage: Typescript,
-        headline: "Javascript",
+        TechImage: Node,
+        headline: "Node",
+        text:"Experience developing front-end applications with vanilla JavaScript as well as popular frameworks like Angular and React"
+    },
+    {
+        id:5,
+        TechImage: Sql,
+        headline: "Sql",
+        text:"Experience developing front-end applications with vanilla JavaScript as well as popular frameworks like Angular and React"
+    },
+    {
+        id:6,
+        TechImage: Git,
+        headline: "Git",
         text:"Experience developing front-end applications with vanilla JavaScript as well as popular frameworks like Angular and React"
     },
     
