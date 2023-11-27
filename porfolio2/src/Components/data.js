@@ -143,8 +143,8 @@ export const OthersSaysdata = [
 export const Commercialdata = [
     {
         id:1,
-        headline: 'SOMETHING',
-        location: ' 2018 Sept Venezuela',
+        headline: 'Climate-Proof',
+        location: ' 2022 October Germany',
         text: 'id,Within the Internship during master thesis I developed a software that uses image recognition to detect quality issues of aircraft parts during production.'
     }
 ]
