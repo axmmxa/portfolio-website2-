@@ -26,7 +26,18 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log(name, email, text)
+    fetch('https://alexander-much.developerakademie.net/send_mail/send_mail.php',
+        {
+            method: 'post',
+            body: {
+                Name: name,
+                Email: email,
+                Text: text
+            }
+        }
+    )
   }
+  
   
 
   return (
