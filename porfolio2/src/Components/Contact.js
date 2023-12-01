@@ -25,16 +25,7 @@ const Contact = () => {
   
   const handleSubmit = () => {
     console.log(name, email, text)
-    fetch('https://access964799709.webspace-data.io/send_mail/send_mail.php',
-        {
-            method: 'post',
-            body: {
-                Name: name,
-                message: email,
-                Text: text
-            }
-        }
-    )
+    // include the fetch functio 
   }
   
   
