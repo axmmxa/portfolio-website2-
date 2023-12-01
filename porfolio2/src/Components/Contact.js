@@ -23,15 +23,14 @@ const Contact = () => {
   }
   
   
-  const handleSubmit = (e) => {
-    e.preventDefault()
+  const handleSubmit = () => {
     console.log(name, email, text)
-    fetch('https://alexander-much.developerakademie.net/send_mail/send_mail.php',
+    fetch('https://access964799709.webspace-data.io/send_mail/send_mail.php',
         {
             method: 'post',
             body: {
                 Name: name,
-                Email: email,
+                message: email,
                 Text: text
             }
         }
@@ -49,7 +48,7 @@ const Contact = () => {
         <div id='contact' className='contact content-left '>
             <h1>Let's talk</h1>
 
-            <form className='contact-form' onSubmit={handleSubmit}>
+            <form className='contact-form' onSubmit={handleSubmit} >
                 <input type='text' name='Name' value={name} onChange={handleNameChange} id='' placeholder='Name'></input>
                 <input type='email'name='email' value={email} onChange={handleEmailChange} id=''  placeholder='Email'></input>
                 <textarea type='text' name='' value={text}  placeholder='Message' onChange={handleTextChange} cols={5} rows={6}></textarea>

@@ -71,7 +71,11 @@
         line-height: 2vw;
         margin-bottom: 25px;
         margin-top: 25px;
-    }    
+    }
+    
+    .right-section {
+        display: none;
+    }
 } 
 
 
