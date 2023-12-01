@@ -81,5 +81,12 @@
 
    /*=== Moile-Screeen-Phone ===*/
   @media only screen and (max-width: 650px) {
-   
+
+   .left-section {
+    width: 100%;
+   } 
+
+   a {
+    display: none;
+   }
   } 
